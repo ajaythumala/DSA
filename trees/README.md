@@ -26,12 +26,12 @@
 ## [Number of binary trees given N nodes]()
 N is dependent on the type of nodes - unlabelled or labelled nodes.
 
-### 1. For Unlabelled nodes :
+### a. For Unlabelled nodes :
 1. Number of binary trees - [T(N) = <sup>2N</sup>C<sub>N</sub> / N + 1]() - Catalan formula
 1. Number of binary trees with maximum height = 2<sup>N-1</sup>
 1. Also number of binary trees T(N) = summation (i = 1 to N) T(i - 1) * T(N - i)
 
-### 2. For labelled nodes :
+### b. For labelled nodes :
 1. There N! ways of arranging N labels for one tree configuration.
 1. Therefore [T(N) = (<sup>2N</sup>C<sub>N</sub> / N + 1) * N!]()
 
@@ -50,11 +50,11 @@ N is dependent on the type of nodes - unlabelled or labelled nodes.
 # Strict Binary Trees
 A binary tree with nodes having degrees of only 0 and 2.
 
-### 1. Minimum and maximum number of nodes in a strict binary tree [given height h]() :
+### a. Minimum and maximum number of nodes in a strict binary tree [given height h]() :
 1. minimum number of nodes = 2h + 1
 1. maximum number of nodes = 2<sup>h + 1</sup> - 1
 
-### 2. Minimum and maximum height of a strict binary tree given [number of nodes n]() :
+### b. Minimum and maximum height of a strict binary tree given [number of nodes n]() :
 1. minimum height = log<sub>2</sub>(n + 1) - 1
 1. maximum height = (n - 1) / 2
 
