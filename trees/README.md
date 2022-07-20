@@ -19,7 +19,6 @@
 1. The [degree of a tree]() - is the maximum number of children a tree can have.
 
 # Bi-nary Tree
-## [?]()
 1. Trees with [degree = 2]()
 1. i.e nodes can have 0 or 1 or max 2 children.
 1. Left and right skewed binary trees. children of nodes are always to the left / right.
@@ -51,11 +50,11 @@ N is dependent on the type of nodes - unlabelled or labelled nodes.
 # Strict Binary Trees
 A binary tree with nodes having degrees of only 0 and 2.
 
-### Minimum and maximum number of nodes in a strict binary tree [given height h]() :
+### 1. Minimum and maximum number of nodes in a strict binary tree [given height h]() :
 1. minimum number of nodes = 2h + 1
 1. maximum number of nodes = 2<sup>h + 1</sup> - 1
 
-### Minimum and maximum height of a strict binary tree given [number of nodes n]() :
+### 2. Minimum and maximum height of a strict binary tree given [number of nodes n]() :
 1. minimum height = log<sub>2</sub>(n + 1) - 1
 1. maximum height = (n - 1) / 2
 
