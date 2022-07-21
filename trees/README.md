@@ -58,6 +58,26 @@ A binary tree with nodes having degrees of only 0 and 2.
 1. minimum height = log<sub>2</sub>(n + 1) - 1
 1. maximum height = (n - 1) / 2
 
+### c. Internal nodes and extenal nodes of a strict binary tree
+[Number of leaf nodes]() = (Number of [nodes with degree 2]()) + 1
+
+# n-ary trees
+Trees that have degree n => Nodes of the tree cannot have degree more than n
+### Strict n-ary trees
+Trees that only have nodes with degree 0 or n
+
+### 1. Minimum and maximum number of nodes in a strict binary tree [given height h]() :
+m -> degree
+1. minimum number of nodes = mh + 1
+1. maximum number of nodes = (m<sup>h + 1</sup> - 1) / m - 1
+
+### 2. Minimum and maximum height of a m-ary tree given [number of nodes n]() :
+1. minimum height = log<sub>m</sub>[n (m - 1) + 1] - 1 
+1. maximum height = (n - 1) / m
+
+
+
+
 
 
 
