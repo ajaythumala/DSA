@@ -83,6 +83,7 @@ Via array or linked list
 
 ### Array Representation
 ![](images/Screenshot%20from%202022-07-21%2008-32-48.png)
+![](images/Screenshot%20from%202022-07-21%2008-35-03.png)
 
 
 
