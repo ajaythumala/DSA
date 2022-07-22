@@ -81,13 +81,36 @@ m -> degree
 # Representation of a binary tree
 Can be represented using arrays or linked nodes
 
-### Array Representation
+### 1. Array Representation
 ![](images/Screenshot%20from%202022-07-21%2008-32-48.png)
 ![](images/Screenshot%20from%202022-07-21%2008-35-03.png)
 
-### Linked Representation
+### 2. Linked Representation
 ![](images/Screenshot%20from%202022-07-22%2008-20-33.png)
 ![](images/Screenshot%20from%202022-07-22%2008-22-21.png)
+
+# Full, Complete and Strict BTs
+### a. Full BT:
+1. Has maximum number of nodes possible - 2<sup>h+1</sup> - 1
+### b. Complete BT:
+1. Has maximum number of nodes possible until the level before the last.
+1. The last level must be filled from left to right
+1. If represented as an array, there must be no gaps between the elements of the array.
+### c. Strict BT:
+1. Has either degree 0 or 2
+
+Full - F
+Complete - C
+Srict - S
+
+1. S != C
+1. S [intersection]() C != NULL
+1. F is a [subset]() of S [Union]() C
+
+![](images/Screenshot%20from%202022-07-22%2008-39-37.png)
+![](images/Screenshot%20from%202022-07-22%2008-40-21.png)
+
+
 
 
 
