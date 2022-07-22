@@ -79,11 +79,17 @@ m -> degree
 [Number of leaf nodes]() = (m - 1) X (Number of [internal nodes]()) + 1
 
 # Representation of a binary tree
-Via array or linked list
+Can be represented using arrays or linked nodes
 
 ### Array Representation
 ![](images/Screenshot%20from%202022-07-21%2008-32-48.png)
 ![](images/Screenshot%20from%202022-07-21%2008-35-03.png)
+
+### Linked Representation
+![](images/Screenshot%20from%202022-07-22%2008-20-33.png)
+![](images/Screenshot%20from%202022-07-22%2008-22-21.png)
+
+
 
 
 
