@@ -116,6 +116,8 @@ Srict - S
 1. in-order - in-order(left), visit(node), in-order(right)
 1. level traversal - Breadth First Traversal
 
+![](images/Screenshot%20from%202022-07-23%2011-12-28.png)
+
 
 
 
