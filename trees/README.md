@@ -118,6 +118,9 @@ Srict - S
 
 ![](images/Screenshot%20from%202022-07-23%2011-12-28.png)
 
+# Creating a Tree :
+![image](https://user-images.githubusercontent.com/87052780/180596446-d9fb02ce-6f9b-455f-b47b-0dfa51c88201.png)
+
 
 
 
