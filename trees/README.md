@@ -98,7 +98,7 @@ Can be represented using arrays or linked nodes
 1. If represented as an array, there must be no gaps between the elements of the array.
 ### c. Strict BT:
 1. Has either degree 0 or 2
-
+### d. Relationship b / w :
 Full - F
 Complete - C
 Srict - S
@@ -109,6 +109,14 @@ Srict - S
 
 ![](images/Screenshot%20from%202022-07-22%2008-39-37.png)
 ![](images/Screenshot%20from%202022-07-22%2008-40-21.png)
+
+# Binary Tree Traversal
+1. pre-order - visit(node), pre-order(left), pre-order(right)
+1. post-order - post-order(left), post-order(right), visit(node)
+1. in-order - in-order(left), visit(node), in-order(right)
+1. level traversal - Breadth First Traversal
+
+
 
 
 
