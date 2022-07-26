@@ -75,7 +75,7 @@ m -> degree
 1. minimum height = log<sub>m</sub>[n (m - 1) + 1] - 1 
 1. maximum height = (n - 1) / m
 
-### c. Internal nodes and extenal nodes of a strict binary tree
+### c. Internal nodes and extenal nodes of a strict m-ary tree
 [Number of leaf nodes]() = (m - 1) X (Number of [internal nodes]()) + 1
 
 # Representation of a binary tree
@@ -120,6 +120,8 @@ Srict - S
 
 # Creating a Tree :
 ![image](https://user-images.githubusercontent.com/87052780/180596446-d9fb02ce-6f9b-455f-b47b-0dfa51c88201.png)
+
+
 
 
 
