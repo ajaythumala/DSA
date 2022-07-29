@@ -27,6 +27,15 @@ class Tree
 
         void levelorder(){levelorder(root);}
         void levelorder(Tree_Node *p);
+
+        int height(){return height(root);}
+        int height(Tree_Node *p);
+
+        int count(){return count(root);}
+        int count(Tree_Node *p);
+
+        int leaf_num(){return leaf_num(root);}
+        int leaf_num(Tree_Node *p);
 };
 
 void Tree :: create_tree()
@@ -162,16 +171,63 @@ void Tree::ipostorder(Tree_Node *p) {
     cout << endl;
 }
 
-void Tree :: levelorder(Tree_Node *p)
-{
-    Queue q2;
-    cout << "hello" << p->val;
-    q2.enqueue(p);
-    // cout << "hello" << p->val;
-    // Tree_Node *tem;
-    // tem = q2.dequeue();
+// void Tree :: levelorder(Tree_Node *p)GGFFGGG
+// {
+//     Queue q2;
+//     cout << "hello" << p->val;
+//     q2.enqueue(p);
+//     // cout << "hello" << p->val;
+//     // Tree_Node *tem;
+//     // tem = q2.dequeue();
     
 
+// }
+
+int Tree :: height(Tree_Node *p)
+{
+    int x, y;
+    if(p != NULL)
+    {
+        x = height(p -> left_child);
+        y = height(p -> right_child);
+        if (x > y)
+            return x + 1;
+        else 
+            return y + 1;
+    }
+    else
+        return 0;
+}
+
+int Tree :: count(Tree_Node *p)
+{
+    int x, y;
+    if(p != NULL)
+    {
+        x = height(p -> left_child);
+        y = height(p -> right_child);
+        return x + y + 1;
+    }
+    else
+        return 0;
+}
+
+int Tree :: leaf_num(Tree_Node *p)
+{
+    int x, y;
+    if(p != NULL)
+    {
+        x = leaf_num(p -> left_child);
+        y = leaf_num(p -> right_child);
+        if (p -> left_child == NULL && p -> right_child == NULL)
+        {
+            return x + y + 1;
+        }
+        else
+            return x + y;
+    }
+    else
+        return 0;
 }
 
 int main()
@@ -183,6 +239,6 @@ int main()
     // tree.postorder(tree.root);
     // cout << endl;
     // tree.inorder(tree.root);
-    tree.levelorder();
+    cout << tree.height() << tree.count() << tree.leaf_num();
     return 0;
 }
